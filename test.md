@@ -112,7 +112,10 @@ $U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1$
 
 $U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1=$
 
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1=s_1 U_{J (n \mid 2n)}$
+$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1=$ $s_1 U_{J (n \mid 2n)}$
+
+
+$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1 = s_1 U_{J (n \mid 2n)}$
 
 $U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1 = s_1 U_{J (n \mid 2n)}$
 
