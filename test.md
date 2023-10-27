@@ -36,7 +36,7 @@ since $U^T$ will be the inverse of $U$ due to orthogonality:
 
 $U^T Y = SU^T X$
 
-I consider vectors in $u$ as $u^1$, $`u^2`$ etc. Due to their orthogonality, apart from the overall equality that the equation above imposes, there is also vector wise equality (because $u^i$ cannot point in a direction pointed by $u^j$):
+I consider vectors in $u$ as $u^1$, $$ u^2 $$ etc. Due to their orthogonality, apart from the overall equality that the equation above imposes, there is also vector wise equality (because $u^i$ cannot point in a direction pointed by $u^j$):
 
 ${u^1}^T Y = s_1{u^1}^T X$
 ${u^2}^T Y = s_2{u^2}^T X$
