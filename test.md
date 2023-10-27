@@ -63,7 +63,7 @@ ${\alpha_1}^T \hat{Y} = s_1{\alpha_1}^T \hat{X}$
 
 ${\alpha_1}^T \hat{Y} \hat{Y}^T = s_1{\alpha_1}^T \hat{X} \hat{Y}^T$
 
-$` \hat{Y} \hat{Y}^T  {\alpha_1}= s_1 \hat{Y} \hat{X}^T {\alpha_1}`$
+$\hat{Y} \hat{Y}^T  {\alpha_1}= s_1 \hat{Y} \hat{X}^T {\alpha_1}$
 
 $J = \hat{Y} \hat{Y}^T$ is a symmetric matrix, of shape $2n \times 2n$. We can investigate its action by considering its SVD:  $U_J S_J U_J^T$. Because we know that $J$ is made of 2 matrices who's smaller dimension is $n$, it can have a rank of at max $n$. Implying the last $n$ singular values in $S_J$ are $0$.
 
@@ -79,7 +79,7 @@ $S_{J (n \mid 2n)} U_J^T  {\alpha_1}= s_1 U_J^T \hat{Y} \hat{X}^T {\alpha_1}$
 
 Where $S_{J (n \mid 2n)}$ is a matrix with the first $n$ diagonal values possibly non-zero, and the rest as $0$. 
 
-Since $S_{J (n \mid 2n)}$ is diagonal with final $n$ values as 0, we can construct its pseudoinverse $S_{J (n \mid 2n)}^{\dagger}$, which just contains $`1/s_{i}`$ in the first $n$ diagonal elements. 
+Since $S_{J (n \mid 2n)}$ is diagonal with final $n$ values as 0, we can construct its pseudoinverse $S_{J (n \mid 2n)}^{\dagger}$, which just contains $1/s_{i}$ in the first $n$ diagonal elements. 
 
 $S_{J (n \mid 2n)}^{\dagger} S_{J (n \mid 2n)} U_J^T  {\alpha_1}= s_1 S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T {\alpha_1}$
 
@@ -99,39 +99,9 @@ On the left $U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T$ is the SVD for a symmetric m
 
 This implies only $\alpha_1$ that are in the space of this matrix can be represented correctly. We assume $\alpha_1 = U_\{J (n \mid 2n)\}\hat\{\alpha\}_1$, where $\hat{\alpha}_1$ is stuffed with trailing $`0`$s to be of the same shape as $\alpha_1$
 
----
-$U_{J (n \mid 2n)}$
-
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T$
-
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1$
-
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1=$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1 = s_1 U_{J (n \mid 2n)}`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger}`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y}`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}`$
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1`$
 
 
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1$
-
-
-$s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
-
----
-
-
-$`U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1`$
+$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)}\hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
 $`U_{J (n \mid 2n)} I_{n \mid 2n} \hat{\alpha}_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1`$
 
@@ -146,13 +116,13 @@ $` \frac{\hat{\alpha}_1}{s_1}= I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \
 
 Which is a standard eigenvalue equation. then 
 
-$\hat{\alpha}_1$ is the eigenvector of $I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}$,  
+$`\hat{\alpha}_1`$ is the eigenvector of $`I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}`$,  
 
 $\frac{1}{s_1}$ is the associated eigenvalue
 
 Once $`\hat{\alpha}_1`$ has been computed, we use it to compute $`\alpha_i`$ as $`\alpha_i = U_{J (n \mid 2n)}\hat{\alpha}_1`$ .
 
-Using math```\alpha_1$, we get $u^1$ as $u^1 = G \alpha_1```math. We arrange these math``` u^i ```math in a matrix $U_r$, and the $s_i$ in $S_r$
+Using $\alpha_1$, we get $u^1$ as $u^1 = G \alpha_1$. We arrange these $u^i$ in a matrix $U_r$, and the $s_i$ in $S_r$
 
 We reconstruct $H$ using these quantities:
 
