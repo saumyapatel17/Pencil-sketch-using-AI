@@ -102,18 +102,18 @@ This implies only $\alpha_1$ that are in the space of this matrix can be represe
 
 
 
-$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1 $
+$U_{J (n \mid 2n)} U_{J (n \mid 2n)}^T  U_{J (n \mid 2n)} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
-$ U_{J (n \mid 2n)} I_{n \mid 2n} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
+$U_{J (n \mid 2n)} I_{n \mid 2n} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
-$ U_{J (n \mid 2n)}^T U_{J (n \mid 2n)} I_{n \mid 2n} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)}^T U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1 $
+$U_{J (n \mid 2n)}^T U_{J (n \mid 2n)} I_{n \mid 2n} \hat{\alpha}\_1= s_1 U_{J (n \mid 2n)}^T U_{J (n \mid 2n)} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
-$ I_{n \mid 2n} \hat{\alpha}\_1= s_1 I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1 $
+$I_{n \mid 2n} \hat{\alpha}\_1= s_1 I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
 
-$ \hat{\alpha}\_1= s_1 I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1 $
+$\hat{\alpha}\_1= s_1 I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
-$ \frac{\hat{\alpha}\_1}{s_1}= I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1 $
+$\frac{\hat{\alpha}\_1}{s_1}= I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}\hat{\alpha}_1$
 
 Which is a standard eigenvalue equation. then 
 
