@@ -120,7 +120,9 @@ $ \hat{\alpha}_1 $ is the eigenvector of $ I_{n \mid 2n} S_{J (n \mid 2n)}^{\dag
 
 $\frac{1}{s_1}$ is the associated eigenvalue
 
-Once $\hat{\alpha}_1$ has been computed, we use it to compute $\alpha_i$ as $\alpha_i = U_{J (n \mid 2n)}\hat{\alpha}_1$ .
+Once $\hat{\alpha}_1$ has been computed, we use it to compute $\alpha_i$ as 
+
+$\alpha_i = U_{J (n \mid 2n)}\hat{\alpha}_1$ .
 
 Using $\alpha_1$, we get $u^1$ as $u^1 = G \alpha_1$. We arrange these $u^i$ in a matrix $U_r$, and the $s_i$ in $S_r$
 
