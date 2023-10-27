@@ -39,6 +39,7 @@ $U^T Y = SU^T X$
 I consider vectors in $u$ as $u^1$, $u^2$ etc. Due to their orthogonality, apart from the overall equality that the equation above imposes, there is also vector wise equality (because $u^i$ cannot point in a direction pointed by $u^j$):
 
 ${u^1}^T Y = s_1{u^1}^T X$
+
 ${u^2}^T Y = s_2{u^2}^T X$
 
 etc., where the equality is a desirable but not guaranteed to hold. for the least norm solution, we want each of the $u^i$ to pull as much weight as possible, i.e. match the left and right hand sides as well as possible. 
