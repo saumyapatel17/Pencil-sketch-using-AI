@@ -146,7 +146,7 @@ $` \frac{\hat{\alpha}_1}{s_1}= I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \
 
 Which is a standard eigenvalue equation. then 
 
-$`\hat{\alpha}_1`$ is the eigenvector of $`I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}`$,  
+$\hat{\alpha}_1$ is the eigenvector of $I_{n \mid 2n} S_{J (n \mid 2n)}^{\dagger} U_J^T \hat{Y} \hat{X}^T U_{J (n \mid 2n)}$,  
 
 $\frac{1}{s_1}$ is the associated eigenvalue
 
